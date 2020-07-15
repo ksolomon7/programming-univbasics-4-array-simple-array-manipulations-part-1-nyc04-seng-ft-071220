@@ -11,18 +11,18 @@ def using_pop(array)
 end
 
 def pop_with_args(array)
-  p array.pop(2)
+  array.pop(2)
 end
 
-pop_with_args(["a","b","c","d","e"])
+# pop_with_args(["a","b","c","d","e"])
 def using_shift(array)
-  p array.shift
+  array.shift
 end
 
-using_shift(["a","b","c","d","e"])
+# using_shift(["a","b","c","d","e"])
 
 def shift_with_args(array)
-  p array.shift(2)
+  array.shift(2)
 end
 
-shift_with_args(["a","b","c","d","e"])
+# shift_with_args(["a","b","c","d","e"])
